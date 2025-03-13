@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv("C:/Users/Asus/Documents/STUPEN DICODING/python only/submission/dashboard/main_data.csv")
+df = pd.read_csv("main_data.csv")
 
 st.title("Analisis Pengguna Sepeda")
 st.markdown("Dashboard ini menampilkan analisis terkait tren penggunaan sepeda berdasarkan berbagai faktor.")
